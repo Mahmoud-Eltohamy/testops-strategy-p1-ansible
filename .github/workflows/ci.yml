@@ -14,9 +14,8 @@ jobs:
     strategy:
       matrix:
         distro:
-          - centos8
           - debian10
-
+          - rhel7
     steps:
       - name: Check out the codebase.
         uses: actions/checkout@v2
